@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* cor de fundo do site */
+body{
+    background: #F7ECE1;
+}
+
+/* cor e centralização do h1 */
+h1{
+    color: #F7ECE1;
+    text-align: center;
+}
+
+/* mudança de tipo e tamanho da fonte, e aplicando justify no texto */
+p{
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* alteração da cor do mark */
+mark{
+    background-color: #8D86C9;
+}
+
+/* apliacação de sombra ao passar o mouse por cima */
+.sombra:hover{
+    box-shadow: 0px 0px 10px #242038;
+}
+
+/* cor de fundo e tamanho do espaço (padding) */
+.boxindex{
+    background-color:#242038;
+    padding: 1% 1% 1% 1%
+}
+
+/* alterando cor ao passar o mouse */
+.textcolor:hover{
+    color: #8D86C9;
+}
+
+/* centralizando elementos */
+.centrotest{
+    display: flex;
+    justify-content: center;
+}
+
+/* alterando cor, fonte, decoração de links */
+a{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #8D86C9;
+}
+
+
+.volume{
+    background-color: #8D86C9;
+    width: fit-content;
+    padding: 1%;
+}
+
+/* aumenta o padding ao passar o mouse */
+.volume:hover{
+    padding: 1% 2% 1% 2%;
+}
+
